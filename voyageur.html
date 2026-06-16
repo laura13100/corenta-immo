@@ -8,7 +8,7 @@
 <meta name="color-scheme" content="light only" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -32,20 +32,21 @@
   </div>
 </nav>
 
-<header class="page-hero">
-  <div class="container">
-    <h1>Nos biens</h1>
-    <p style="color:#cfe3d8; margin-top:16px;">Séjournez en Provence &amp; à Marseille</p>
+<header class="hero" style="min-height:auto; padding:140px 24px 64px; background:var(--blanc);">
+  <div class="hero-card" style="box-shadow:none; border:none; padding:0; text-align:center;">
+    <h1 style="font-size:40px;">Nos biens</h1>
+    <p style="margin-top:16px; font-size:17px;">Séjournez en Provence &amp; à Marseille</p>
+    <p style="margin-top:8px;">Des logements soigneusement sélectionnés et gérés par Corenta.</p>
   </div>
 </header>
 
-<section>
+<section style="padding-top:0;">
   <div class="container">
     <div class="biens-grid">
 
-      <article class="bien-card is-flagship">
-        <div class="placeholder-img">Photo Villa l'Étoile<br />(etoile.png)</div>
-        <div class="bien-body">
+      <article class="bien-photo-card is-flagship">
+        <span class="photo-label">etoile.png</span>
+        <div class="bien-overlay">
           <span class="bien-flag">Flagship</span>
           <h3>Villa l'Étoile</h3>
           <p class="bien-location">Mimet · Provence · Piscine &amp; vue panoramique</p>
@@ -55,9 +56,9 @@
         </div>
       </article>
 
-      <article class="bien-card">
-        <div class="placeholder-img bien-photo">Photo L'Oasis Aixoise<br />(oasis.png)</div>
-        <div class="bien-body">
+      <article class="bien-photo-card">
+        <span class="photo-label">oasis.png</span>
+        <div class="bien-overlay">
           <h3>L'Oasis Aixoise</h3>
           <p class="bien-location">Aix-en-Provence · Piscine &amp; Jardin</p>
           <p class="bien-meta">Maison · Famille · Dès 180€/nuit</p>
@@ -66,9 +67,9 @@
         </div>
       </article>
 
-      <article class="bien-card">
-        <div class="placeholder-img bien-photo">Photo Le Panier Jaune<br />(panier.png)</div>
-        <div class="bien-body">
+      <article class="bien-photo-card">
+        <span class="photo-label">panier.png</span>
+        <div class="bien-overlay">
           <h3>Le Panier Jaune</h3>
           <p class="bien-location">Marseille · Le Panier</p>
           <p class="bien-meta">Appartement · 2 pers. · Dès 55€/nuit</p>
@@ -77,9 +78,9 @@
         </div>
       </article>
 
-      <article class="bien-card">
-        <div class="placeholder-img bien-photo">Photo Fontaine des Augustins<br />(augustins.png)</div>
-        <div class="bien-body">
+      <article class="bien-photo-card">
+        <span class="photo-label">augustins.png</span>
+        <div class="bien-overlay">
           <h3>Fontaine des Augustins</h3>
           <p class="bien-location">Aix-en-Provence · Centre historique</p>
           <p class="bien-meta">Studio · 2 pers. · Dès 55€/nuit</p>
@@ -88,9 +89,9 @@
         </div>
       </article>
 
-      <article class="bien-card">
-        <div class="placeholder-img bien-photo">Photo La Suite Major<br />(major.png)</div>
-        <div class="bien-body">
+      <article class="bien-photo-card">
+        <span class="photo-label">major.png</span>
+        <div class="bien-overlay">
           <h3>La Suite Major</h3>
           <p class="bien-location">Marseille · Vue cathédrale</p>
           <p class="bien-meta">Appartement · 2 pers. · Dès 55€/nuit</p>
@@ -108,7 +109,7 @@
     <div class="footer-grid">
       <div>
         <div class="footer-logo">Corenta Conciergerie</div>
-        <p>Conciergerie Airbnb &amp; Booking en Provence. On maximise vos revenus, on minimise vos frais.</p>
+        <p>Conciergerie Airbnb &amp; Booking · Aix-en-Provence &amp; France entière</p>
       </div>
       <div>
         <h4>Navigation</h4>
@@ -124,7 +125,7 @@
         <h4>Légal</h4>
         <ul>
           <li><a href="#">Mentions légales</a></li>
-          <li><a href="#">Confidentialité</a></li>
+          <li><a href="#">Politique de confidentialité</a></li>
         </ul>
       </div>
     </div>
